@@ -58,6 +58,7 @@ class game:
 
     def play(self):
         print("Starting Game")
+        print("Player One is 'X' \n Player two is 'O' ")
         while True:
             move1 = int(input("Player1 move: "))-1
             self.check_valid_input(move1 , "X" )
